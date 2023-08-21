@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem var(--padding);
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+.logo__alura img{
+  width: 125px;
+}
+.botao__login {
+  padding: 0.8rem 2.5rem;
+  border: 2px solid var(--alt-color);
+  cursor: pointer;
+}
+
+.botao__login a {
+  color: var(--alt-color);
+}
+
+
